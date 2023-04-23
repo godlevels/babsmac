@@ -20,7 +20,7 @@ module.exports = {
       colors: {
         primary: {
           100: '#a5ffce',
-          200: '#4ae290',
+          200: '#00a3d8',
           300: '25c870',
         },
         neutral: {
@@ -33,7 +33,7 @@ module.exports = {
         page: '#fcfcff',
       },
       backgroundImage: {
-        banner: "url('/src/assets/img/banner/bg.png')",
+        banner: "url('/src/assets/img/banner/panels.jpg')",
         faq: "url('/src/assets/img/faq/bg.svg')",
       },
       backgroundSize: {

@@ -1,4 +1,4 @@
-import Logo from '../src/assets/img/header/logo.svg'
+import Logo from '../src/assets/img/header/logo.jpg'
 // import ResistanceImg from '../src/assets/img/workouts/resistance.png'
 // import BoxingImg from '../src/assets/img/workouts/boxing.png'
 // import BodyPumpImg from '../src/assets/img/workouts/body-pump.png'
@@ -21,8 +21,7 @@ import QuestionMarkIcn from '../src/assets/img/faq/icons/question-mark.svg'
 
 export const header = { 
     logo: Logo, 
-    btnLoginText: 'Log in', 
-    btnSignupText: 'Sign Up',
+    btnExplore: 'Explore', 
 }
 
 export const nav = [ 
@@ -35,10 +34,10 @@ export const nav = [
 ];
 
 export const banner = { 
-    titlePart1: 'Get the best part of your day', 
+    titlePart1: 'Get the best part of', 
     titlePart2: 
-        '– you fit here.', subtitle: 'We provide serious fitness but within a fun and friendly, safe space.', 
-    textBtn: 'Join Now', 
+        '– industrial supplies.', subtitle: 'An indigenous industrial machinery supplies outfit incorporated under Nigerian Laws.', 
+    textBtn: 'Explore', 
     img: '',
 }; 
 
@@ -50,40 +49,40 @@ export const about = {
         link: 'Join Now',
     }; 
     
-    export const workouts = { 
-        icon: CalendarIcn, 
-        title: 'Training programs', 
-        programs: [ 
-            { 
-                image: ResistanceImg, 
-                name: 'Resistance', 
-            }, 
-            { 
-                image: BoxingImg, 
-                name: 'Boxing', 
-            }, 
-            { 
-                image: BodyPumpImg,
-                name: 'Body Pump', 
-            }, 
-            { 
-                image: YogaImg, 
-                name: 'Yoga', 
-            }, 
-            { 
-                image: FullBodyImg, 
-                name: 'Full Body', 
-            }, 
-            { 
-                image: FitnessImg,
-                name: 'Fitness', 
-            }, 
-            { 
-                image: BattleRopeImg, 
-                name: 'Battle Rope', 
-            }, 
-        ],
-    }; 
+    // export const workouts = { 
+    //     icon: CalendarIcn, 
+    //     title: 'Training programs', 
+    //     programs: [ 
+    //         { 
+    //             image: ResistanceImg, 
+    //             name: 'Resistance', 
+    //         }, 
+    //         { 
+    //             image: BoxingImg, 
+    //             name: 'Boxing', 
+    //         }, 
+    //         { 
+    //             image: BodyPumpImg,
+    //             name: 'Body Pump', 
+    //         }, 
+    //         { 
+    //             image: YogaImg, 
+    //             name: 'Yoga', 
+    //         }, 
+    //         { 
+    //             image: FullBodyImg, 
+    //             name: 'Full Body', 
+    //         }, 
+    //         { 
+    //             image: FitnessImg,
+    //             name: 'Fitness', 
+    //         }, 
+    //         { 
+    //             image: BattleRopeImg, 
+    //             name: 'Battle Rope', 
+    //         }, 
+    //     ],
+    // }; 
     
     export const pricing = { 
         icon: PriceIcn, 
@@ -132,25 +131,25 @@ export const about = {
     title: 'Community', 
     testimonials: [ 
         { 
-            image: CommunityImg1, 
+            // image: CommunityImg1, 
             name: 'Mark A.', 
             message: 
                 '“Great location, great price and great, helpful people. What to want more?”', 
             }, 
             { 
-                image: CommunityImg2, 
+                // image: CommunityImg2, 
                 name: 'Lauren K.', 
                 message: 
                     '“Gymme changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”', 
             }, 
             { 
-                image: CommunityImg3, 
+                // image: CommunityImg3, 
                 name: 'Jhon D.', 
                 message: 
                     '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”', 
             }, 
             { 
-                image: CommunityImg4, 
+                // image: CommunityImg4, 
                 name: 'Anne R.', 
                 message: 
                     '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”', 
@@ -196,7 +195,7 @@ export const about = {
     }; 
     
     export const join = { 
-        image: JoinImg, 
+        // image: JoinImg, 
         title: 'Wanna join & have fun?', 
         subtitle: 
             'We’ll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.', 
