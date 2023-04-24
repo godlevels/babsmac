@@ -21,11 +21,10 @@ function App() {
     <div className='max-w-[1440px] mx-auto bg-page overflow-hidden relative'>
         <Header />
         <Banner />
-        <About />
         <Workouts />
-        <Pricing />
-        <Community />
+        <About />
         <Faq />
+        <Community />
         <Join />
         <Footer />
         <div className='h-[4000px]'></div>

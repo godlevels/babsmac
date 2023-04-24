@@ -23,7 +23,7 @@ const Header = () => {
             </a>
             <Nav />
             <div className='hidden lg:flex'>
-                <button>{btnExplore}</button>
+                <button className='btn btn-sm btn-primary'>{btnExplore}</button>
             </div>
 
             <div onClick={()=> setMobile(!mobile)} className='lg:hidden absolute right-4 top-6 cursor-pointer'>

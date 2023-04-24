@@ -1,11 +1,34 @@
 import Logo from '../src/assets/img/header/logo.jpg'
-// import ResistanceImg from '../src/assets/img/workouts/resistance.png'
-// import BoxingImg from '../src/assets/img/workouts/boxing.png'
-// import BodyPumpImg from '../src/assets/img/workouts/body-pump.png'
-// import YogaImg from '../src/assets/img/workouts/yoga.png'
-// import FullBodyImg from '../src/assets/img/workouts/full-body.png'
-// import FitnessImg from '../src/assets/img/workouts/fitness.png'
-// import BattleRopeImg from '../src/assets/img/workouts/battle-rope.png'
+import client1 from '../src/assets/img/clients/1.png'
+import client2 from '../src/assets/img/clients/2.png'
+import client3 from '../src/assets/img/clients/3.png'
+import client4 from '../src/assets/img/clients/4.png'
+import client5 from '../src/assets/img/clients/5.png'
+import client6 from '../src/assets/img/clients/6.png'
+import client7 from '../src/assets/img/clients/7.png'
+import client8 from '../src/assets/img/clients/8.png'
+import client9 from '../src/assets/img/clients/9.png'
+import client10 from '../src/assets/img/clients/10.png'
+import client11 from '../src/assets/img/clients/11.png'
+import client12 from '../src/assets/img/clients/12.png'
+import client13 from '../src/assets/img/clients/j1.png'
+import client14 from '../src/assets/img/clients/j2.png'
+import client15 from '../src/assets/img/clients/j3.png'
+import client16 from '../src/assets/img/clients/j4.png'
+import client17 from '../src/assets/img/clients/j5.png'
+import client18 from '../src/assets/img/clients/j6.png'
+import client19 from '../src/assets/img/clients/j7.png'
+import client20 from '../src/assets/img/clients/j8.png'
+import client21 from '../src/assets/img/clients/j9.png'
+import client22 from '../src/assets/img/clients/j10.png'
+import client23 from '../src/assets/img/clients/j12.png'
+import client24 from '../src/assets/img/clients/j13.png'
+import client25 from '../src/assets/img/clients/j14.png'
+import client26 from '../src/assets/img/clients/j15.png'
+import client27 from '../src/assets/img/clients/j16.png'
+import client28 from '../src/assets/img/clients/j21.png'
+import client29 from '../src/assets/img/clients/j22.png'
+import client30 from '../src/assets/img/clients/j23.png'
 // import CommunityImg1 from '../src/assets/img/community/img1.png'
 // import CommunityImg2 from '../src/assets/img/community/img2.png'
 // import CommunityImg3 from '../src/assets/img/community/img3.png'
@@ -13,7 +36,7 @@ import Logo from '../src/assets/img/header/logo.jpg'
 // import JoinImg from '../src/assets/img/join/woman.png' 
 // ICONS
 import UsersIcn from '../src/assets/img/about/icons/users-icn.svg'
-import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg'
+// import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg'
 import PriceIcn from '../src/assets/img/pricing/icons/price.svg'
 import CommunityIcn from '../src/assets/img/community/icons/community-icn.svg'
 import QuestionMarkIcn from '../src/assets/img/faq/icons/question-mark.svg' 
@@ -43,46 +66,139 @@ export const banner = {
 
 export const about = { 
     icon: UsersIcn, 
-    title: 'Our misson', 
+    title: 'Our mission', 
     subtitle1: 
-        'We are distinguished by our unsurpassed motivating atmosphere, knowledgeable staff, and premier exercise equipment, which supports our members in meeting their individual fitness goals.', subtitle2: 'The strength of our heart-felt identity is utilized to inspire every person that steps foot into our gyms to better themselves.', 
-        link: 'Join Now',
+        'Babsmac International Limited is an independent engineering outfit that has been providing high-performance state-of-the-art solutions in terms of industrial spare parts supplies mainly electrical automation and mechanical engineering in order to solve industrial spare part availability and management problems since 2003 providing adequate and fault free service.', 
+        subtitle2: 'Babsmac International Limited seeks to understand the need of its customers and provides a full range of business-focused services that are designed to meet their requirements.', 
+        link: 'Contact Us',
     }; 
     
-    // export const workouts = { 
-    //     icon: CalendarIcn, 
-    //     title: 'Training programs', 
-    //     programs: [ 
-    //         { 
-    //             image: ResistanceImg, 
-    //             name: 'Resistance', 
-    //         }, 
-    //         { 
-    //             image: BoxingImg, 
-    //             name: 'Boxing', 
-    //         }, 
-    //         { 
-    //             image: BodyPumpImg,
-    //             name: 'Body Pump', 
-    //         }, 
-    //         { 
-    //             image: YogaImg, 
-    //             name: 'Yoga', 
-    //         }, 
-    //         { 
-    //             image: FullBodyImg, 
-    //             name: 'Full Body', 
-    //         }, 
-    //         { 
-    //             image: FitnessImg,
-    //             name: 'Fitness', 
-    //         }, 
-    //         { 
-    //             image: BattleRopeImg, 
-    //             name: 'Battle Rope', 
-    //         }, 
-    //     ],
-    // }; 
+    export const clients = { 
+        // icon: CalendarIcn, 
+        title: 'Our Partners & Clients', 
+        logos: [ 
+            { 
+                image: client1, 
+                name: 'Resistance', 
+            }, 
+            { 
+                image: client2, 
+                name: 'Boxing', 
+            }, 
+            { 
+                image: client3,
+                name: 'Body Pump', 
+            }, 
+            { 
+                image: client4, 
+                name: 'Yoga', 
+            }, 
+            { 
+                image: client5, 
+                name: 'Full Body', 
+            }, 
+            { 
+                image: client6,
+                name: 'Fitness', 
+            }, 
+            { 
+                image: client7, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client8, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client9, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client10, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client11, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client12, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client13, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client14, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client15, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client16, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client17, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client18, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client19, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client20, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client21, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client22, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client23, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client24, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client25, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client26, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client27, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client28, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client29, 
+                name: 'Battle Rope', 
+            },
+            { 
+                image: client30, 
+                name: 'Battle Rope', 
+            },
+        ],
+    }; 
     
     export const pricing = { 
         icon: PriceIcn, 

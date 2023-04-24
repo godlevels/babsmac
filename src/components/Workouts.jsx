@@ -1,9 +1,12 @@
 import React from 'react'
+import WorkoutSlider from './WorkoutSlider'
 
 const Workouts = () => {
     return (
-        <div>
-            workouts
+        <div className='section'> 
+            <div className='container mx-auto mt-[90px]'>
+                <WorkoutSlider />
+            </div>
         </div>
     )
 }

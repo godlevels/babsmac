@@ -46,7 +46,7 @@
         @apply flex justify-center items-center rounded-[2px]
     } 
     .btn-sm { 
-        @apply font-primary font-bold uppercase text-[12px] leading-[18px] h-[42px] px-[30px] tracking-[1px]
+        @apply font-primary font-bold uppercase text-[12px] leading-[18px] h-[42px] px-[15px] tracking-[1px]
     } 
     .btn-lg { 
         @apply font-primary font-bold uppercase text-[14px] leading-[18px] h-[46px] px-[20px] tracking-[1px]
@@ -61,10 +61,10 @@
         @apply text-neutral-500 text-sm uppercase font-extrabold tracking-[1px]
     } 
     .section { 
-        @apply pb-[80px] md:pb-[110px] lg:pb-[180px]
+        @apply pb-[5px] md:pb-[50px] lg:pb-[0px]
     } 
     .section-title-group { 
-        @apply flex items-center justify-center -space-x-20 mb-[50px] lg:mb-[80px]
+        @apply flex items-center justify-center -space-x-20 mb-[50px] lg:mb-[20px]
     } 
     .section-title { 
         @apply flex -space-x-4
