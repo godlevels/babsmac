@@ -1,4 +1,5 @@
 import Logo from '../src/assets/img/header/logo.jpg'
+import Logoss from '../src/assets/img/header/logos.svg'
 import client1 from '../src/assets/img/clients/1.png'
 import client2 from '../src/assets/img/clients/2.png'
 import client3 from '../src/assets/img/clients/3.png'
@@ -29,14 +30,8 @@ import client27 from '../src/assets/img/clients/j16.png'
 import client28 from '../src/assets/img/clients/j21.png'
 import client29 from '../src/assets/img/clients/j22.png'
 import client30 from '../src/assets/img/clients/j23.png'
-// import CommunityImg1 from '../src/assets/img/community/img1.png'
-// import CommunityImg2 from '../src/assets/img/community/img2.png'
-// import CommunityImg3 from '../src/assets/img/community/img3.png'
-// import CommunityImg4 from '../src/assets/img/community/img4.png'
-// import JoinImg from '../src/assets/img/join/woman.png' 
 // ICONS
 import UsersIcn from '../src/assets/img/about/icons/users-icn.svg'
-// import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg'
 import PriceIcn from '../src/assets/img/pricing/icons/price.svg'
 import CommunityIcn from '../src/assets/img/community/icons/community-icn.svg'
 import QuestionMarkIcn from '../src/assets/img/faq/icons/question-mark.svg' 
@@ -44,16 +39,14 @@ import QuestionMarkIcn from '../src/assets/img/faq/icons/question-mark.svg'
 
 export const header = { 
     logo: Logo, 
-    btnExplore: 'Explore', 
+    btnExplore: 'Contact Us', 
 }
 
 export const nav = [ 
     { name: 'Home', href: '/' }, 
     { name: 'About', href: '/' }, 
-    { name: 'Workouts', href: '/' }, 
-    { name: 'Pricing', href: '/' }, 
-    { name: 'Community', href: '/' }, 
     { name: 'FAQ', href: '/' },
+    { name: 'Clients', href: '/' },  
 ];
 
 export const banner = { 
@@ -73,8 +66,7 @@ export const about = {
         link: 'Contact Us',
     }; 
     
-    export const clients = { 
-        // icon: CalendarIcn, 
+    export const clients = {  
         title: 'Our Partners & Clients', 
         logos: [ 
             { 
@@ -278,47 +270,81 @@ export const about = {
         title: 'FAQ', 
         accordions: [ 
             { 
-                question: 'How can I book a workout class?', 
+                question: 'Lorem ipsum dolor sit amet consectetur?', 
                 answer: 
                     'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.', 
             }, 
             { 
-                question: 'Can I pay by cash for my membership?', 
+                question: 'Lorem ipsum dolor sit amet consectetur?', 
                 answer: 
                     'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.', 
             }, 
             { 
-                question: 'What age do I need to be to join?', 
+                question: 'Lorem ipsum dolor sit amet consectetur?', 
                 answer: 
                     'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.', 
             }, 
             { 
-                question: 'Are there any lockers?', 
+                question: 'Lorem ipsum dolor sit amet consectetur?', 
                 answer: 
                     'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.', 
             }, 
             { 
-                question: 'How do I cancel my membership?', 
+                question: 'Lorem ipsum dolor sit amet consectetur?', 
                 answer: 
                     'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.', 
             }, 
             { 
-                question: 'Is there water available at the gym?', 
+                question: 'Lorem ipsum dolor sit amet consectetur?', 
                 answer: 
                     'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.', 
             }, 
         ],
     }; 
     
-    export const join = { 
-        // image: JoinImg, 
-        title: 'Wanna join & have fun?', 
-        subtitle: 
-            'We’ll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.', 
-        btnText: 'Join now',
-    }; 
+    export const contact = {
+         title: 'Contact Us', 
+         info: [
+            { 
+                title: 'Ibadan office', 
+                subtitle: 
+                    'In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus', 
+                address: { 
+                    name: '784 Norman Street, Los Angeles', 
+                }, 
+                phone: {
+                    number: '+49 93 30493943', 
+                }, 
+                email: {  
+                    address: 'contact@yourcompany.com', 
+                }, 
+                link: 'Get location', 
+            }, 
+            { 
+                title: 'Lagos office', 
+                subtitle: 
+                    'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus', 
+                address: {  
+                    name: '1630 Elm Drive, New York City', 
+                }, 
+                phone: {  
+                    number: '+49 34 36573355', 
+                }, 
+                email: {  
+                    address: 'contact@yourcompany.com', 
+                }, 
+                link: 'Get location', 
+            }, 
+        ], 
+        form: { 
+            name: 'Your name', 
+            email: 'Email address', 
+            message: 'Message', 
+            btnText: 'Submit', 
+        },
+    };
     
     export const footer = { 
-        logo: Logo, 
-        copyrightText: 'All rights reserved. Babsmac 2023.',
+        logo: Logoss, 
+        copyrightText: 'All rights reserved.',
     };

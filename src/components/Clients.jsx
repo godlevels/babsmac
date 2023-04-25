@@ -1,14 +1,14 @@
 import React from 'react'
-import WorkoutSlider from './WorkoutSlider'
+import ClientsSlider from './ClientsSlider'
 
-const Workouts = () => {
+const Clients = () => {
     return (
         <div className='section'> 
             <div className='container mx-auto mt-[90px]'>
-                <WorkoutSlider />
+                <ClientsSlider />
             </div>
         </div>
     )
 }
 
-export default Workouts
+export default Clients

@@ -1,5 +1,5 @@
 import React from 'react'
-import { banner } from '../data'
+import { banner } from '../data' 
 
 const Banner = () => {
     const {titlePart1, titlePart2, subtitle, textBtn} = banner

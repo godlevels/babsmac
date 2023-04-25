@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Join = () => {
+const Services = () => {
     return (
         <div>
-          contact us
+            services
         </div>
     )
 }
 
-export default Join
+export default Services

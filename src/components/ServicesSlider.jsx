@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CommunitySlider = () => {
+const ServicesSlider = () => {
     return (
         <div>
             community slider
@@ -8,4 +8,4 @@ const CommunitySlider = () => {
     )
 }
 
-export default CommunitySlider
+export default ServicesSlider
