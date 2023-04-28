@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import '../workSlider.css'
-import { Navigation, Autoplay } from 'swiper'
+// import { Navigation, Autoplay } from 'swiper'
 const WorkoutSlider = () => {
     const { logos } = clients
     return (

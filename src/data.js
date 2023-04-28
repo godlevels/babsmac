@@ -30,10 +30,13 @@ import client27 from '../src/assets/img/clients/j16.png'
 import client28 from '../src/assets/img/clients/j21.png'
 import client29 from '../src/assets/img/clients/j22.png'
 import client30 from '../src/assets/img/clients/j23.png'
+import Serv1 from '../src/assets/img/community/33.png' 
+import Serv2 from '../src/assets/img/community/44.png' 
+import Serv3 from '../src/assets/img/community/22.png' 
+import Serv4 from '../src/assets/img/community/55.png' 
+import Serv5 from '../src/assets/img/community/11.png' 
 // ICONS
 import UsersIcn from '../src/assets/img/about/icons/users-icn.svg'
-import PriceIcn from '../src/assets/img/pricing/icons/price.svg'
-import CommunityIcn from '../src/assets/img/community/icons/community-icn.svg'
 import QuestionMarkIcn from '../src/assets/img/faq/icons/question-mark.svg' 
 
 
@@ -191,76 +194,29 @@ export const about = {
             },
         ],
     }; 
-    
-    export const pricing = { 
-        icon: PriceIcn, 
-        title: 'Pricing plan', 
-        plans: [ 
-            { 
-                name: 'Basic', 
-                price: '20', 
-                list: [ 
-                    { name: 'unlimited gym access' },
-                    { name: '1 training programs' }, 
-                    { name: 'free fitness consultation' }, 
-                ], 
-                delay: 600, 
-            }, 
-            
-            { 
-                name: 'Premium', 
-                price: '35', 
-                list: [ 
-                    { name: 'unlimited gym access' }, 
-                    { name: '5 training programs' }, 
-                    { name: 'free fitness consultation' }, 
-                    { name: 'personal trainer' }, 
-                ], 
-                delay: 800, 
-            }, 
-            
-            { 
-                name: 'Elite', 
-                price: '49', 
-                list: [ 
-                    { name: 'unlimited gym access' }, 
-                    { name: 'all training programs' }, 
-                    { name: 'free fitness consultation' }, 
-                    { name: 'personal trainer' }, 
-                    { name: '50% off drinks' }, 
-                ], 
-                delay: 1000, 
-            }, 
-        ],
-    };
 
-    export const community = { 
-    icon: CommunityIcn, 
-    title: 'Community', 
-    testimonials: [ 
-        { 
-            // image: CommunityImg1, 
-            name: 'Mark A.', 
-            message: 
-                '“Great location, great price and great, helpful people. What to want more?”', 
+    export const services = {  
+    title: 'Services', 
+    works: [ 
+            { 
+            image: Serv1, 
+            title: 'Measurement',  
             }, 
             { 
-                // image: CommunityImg2, 
-                name: 'Lauren K.', 
-                message: 
-                    '“Gymme changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”', 
+                image: Serv2, 
+                title: 'Control',  
             }, 
             { 
-                // image: CommunityImg3, 
-                name: 'Jhon D.', 
-                message: 
-                    '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”', 
+                image: Serv3, 
+                title: 'Automation',  
             }, 
             { 
-                // image: CommunityImg4, 
-                name: 'Anne R.', 
-                message: 
-                    '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”', 
+                image: Serv4, 
+                title: 'Pump',  
+            },
+            { 
+                image: Serv5, 
+                title: 'EPCI',  
             }, 
         ],
     }; 
@@ -306,32 +262,30 @@ export const about = {
          title: 'Contact Us', 
          info: [
             { 
-                title: 'Ibadan office', 
-                subtitle: 
-                    'In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus', 
+                title: 'Ibadan office:',  
                 address: { 
-                    name: '784 Norman Street, Los Angeles', 
+                    name: '68, Iwo Road, Opp. Ibadan N.E.L.G. Ibadan.', 
                 }, 
                 phone: {
-                    number: '+49 93 30493943', 
+                    number: ' +2348055933374', 
                 }, 
                 email: {  
-                    address: 'contact@yourcompany.com', 
+                    address1: 'babsmacintl@gmail.com', 
+                    address2: 'babsmacintl@yahoo.co.uk', 
                 }, 
                 link: 'Get location', 
-            }, 
+            },
             { 
-                title: 'Lagos office', 
-                subtitle: 
-                    'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus', 
-                address: {  
-                    name: '1630 Elm Drive, New York City', 
+                title: 'Lagos office:',  
+                address: { 
+                    name: '20, Olowu Street, Ikeja, Lagos.', 
                 }, 
-                phone: {  
-                    number: '+49 34 36573355', 
+                phone: {
+                    number: ' +2348038326399', 
                 }, 
                 email: {  
-                    address: 'contact@yourcompany.com', 
+                    address1: 'babsmacintl@gmail.com', 
+                    address2: 'babsmacintl@yahoo.co.uk', 
                 }, 
                 link: 'Get location', 
             }, 

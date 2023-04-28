@@ -22,8 +22,8 @@ function App() {
         <Banner />
         <Clients />
         <About />
-        <Faq />
         <Services />
+        <Faq />
         <Contact />
         <Footer />
     </div>
